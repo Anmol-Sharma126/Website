@@ -1,0 +1,29 @@
+#ll{
+    display:flexbox;
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    padding: 75px;
+    margin: auto;
+    margin-top: 28px;
+    margin-left: 341px;
+    margin-right:341px;
+    background: #f2f2f2;
+    text-align: center;
+    align-items: center;
+    border: 2px solid brown;
+    
+}
+.butt{
+    font-size: 20px;
+    color:green;
+}
+#form{
+    display: block;
+   
+}
+#ff{
+    display:inline-table;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    
+}
