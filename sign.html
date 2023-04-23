@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign page</title>
     <link rel="stylesheet" href="sign.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="signph.css">
 
 </head>
 <body>
+    <div id="logo1">
+        <img src="logolt.jpeg.png" alt="">
+    </div>
     <form action="php" id="ll">
         <h3>Sign Up</h3>
         <hr>
@@ -22,7 +26,7 @@
         </div>
         <div id="form">
         <label for="phone number">Mobile number:</label>
-        <input type="number" placeholder="eg.0123456789" id="ff">
+        <input type="number" placeholder="eg.0123456789" id="ff" minlength="10">
         </div>
         <div id="form">
             <label for="email">Email: </label>
