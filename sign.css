@@ -1,5 +1,7 @@
 #ll{
+    align-items: center;
     display:flexbox;
+    border: 2px solid brown;
     font-family: 'Bree Serif', serif;
     font-size: 2rem;
     padding: 75px;
@@ -7,10 +9,14 @@
     margin-top: 28px;
     margin-left: 341px;
     margin-right:341px;
+     text-align: center;
+}
+#ll::before{
+   content: "";
+    position: absolute;
     background: #f2f2f2;
-    text-align: center;
-    align-items: center;
-    border: 2px solid brown;
+   
+    
     
 }
 .butt{
@@ -26,4 +32,14 @@
     font-family: 'Bree Serif', serif;
     font-size: 20px;
     
+}
+#logo1{
+    display: flex;
+    justify-content: left;
+    position: sticky;
+    top: 0px;
+}
+#logo1::before{
+    display: flex;
+
 }
